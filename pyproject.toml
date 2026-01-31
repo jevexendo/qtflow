@@ -1,0 +1,15 @@
+[build-system]
+requires = ["uv_build>=0.9.28,<0.10.0"]
+build-backend = "uv_build"
+
+[project]
+name = "qtflow"
+version = "0.1.0a1"
+description = "Workflow tool for Python-based Qt projects"
+readme = "README.md"
+authors = [{ name = "Jexen Labs", email = "contact@jexenlabs.com" }]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+qtflow = "qtflow:main"
